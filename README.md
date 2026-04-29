@@ -2,24 +2,79 @@
 The system is designed to streamline and manage university operations efficiently, including facility and resource bookings, 
 incident management, and user notifications.
 
-The application consists of a React-based frontend and a Spring Boot REST API backend integrated with a MongoDB database. 
-It follows RESTful best practices and provides a user-friendly interface to ensure smooth interaction and efficient data handling.
+## 🚀 Features
 
-#Features
-* Manage campus facilities and resources (labs, rooms, equipment)
-* Booking system with approval workflow and conflict checking
-* Incident ticketing system with attachments and status updates
-* Notification system for booking and ticket updates
-* Role-based access control (User/Admin/Technician)
-* OAuth 2.0 authentication (e.g., Google Sign-In)
+### Student & Staff Features
+- **User Authentication**: Register, Login, JWT-based authentication
+- **Resources Browsing**: Browse available campus rooms (lecture halls, labs, meeting rooms, study rooms)
+- **Room Selection & Configuration**: Choose room preferences
+- **Booking Cart**: Add room bookings, manage selected time slots, edit or remove reservations before confirmation
+- **Checkout**: Date & time selection, Approval request submission
+- **Booking Tracking**: Real-time booking status tracking
+- **User Dashboard**: Booking history, Profile management, Cancel or reschedule bookings
+- **Room Availability Calendar**: View real-time availability of rooms in calendar format
+- **Notifications & Alerts**: Booking approval/rejection, Admin announcements
 
-#Technologies Used
-* Frontend: React.js
-* Backend: Spring Boot (Java)
-* Database: MongoDB
-* API: RESTful Web Services
-* Authentication: OAuth 2.0
-* Version Control: GitHub
+### Admin Features
+- **Dashboard**: Total bookings, Most frequently booked rooms, Pending approval requests
+- **Booking Management**: View booking details (room, user, time slot, purpose)
+- **Room Management**: Add, edit, and delete campus rooms with full configuration
+- **User Management**: View and manage system users (students, lecturers, admins)
+- **Schedule & Time Slot Management**: Create standard time slots for rooms
+- **Approval Workflow Management**: Auto-approve or manual approval settings
+- **Notification Management**: Booking confirmations and rejections
+- **Room Maintenance Management**: Track and manage room status
+
+## 🛠️ Tech Stack
+
+### Backend
+- **Spring Boot** - backend framework for building RESTful APIs
+- **Spring Security** - Authentication & authorization
+- **MongoDB** - Database (Mongoose ODM)
+- **JWT** - Authentication
+- **Maven / Gradle** - Dependency and build management
+
+### Frontend
+- **React 18** - UI library
+- **React Router DOM 6** - Client-side routing
+- **Redux Toolkit** - State management
+- **Tailwind CSS** - Modern utility-first styling framework
+- **Framer Motion** - Animations
+- **React Icons** - Icon library
+- **React Toastify** - Notifications
+- **Chart.js** - Analytics charts
+
+## 🔑 Demo Credentials
+
+### Admin Account
+- Email: admin1@gmail.com
+- Password: admin123
+
+### User Account
+- Email: student1@example.com
+- Password: student123
+
+## 📝 API Endpoints
+
+### Authentication
+- `POST /api/auth/register` - Register new user
+- `POST /api/auth/login` - Login user
+- `GET /api/auth/me` - Get current user
+
+### Product
+- `GET /api/resources` - Get all resources
+- `GET /api/resources/:id` - Get resources by ID
+- `POST /api/resources` - Create resources (admin)
+- `PUT /api/resources/:id` - Update resources (admin)
+- `DELETE /api/resources/:id` - Delete resources (admin)
+
+### Users
+- `GET /api/users` - Get all users
+- `GET /api/users/:id` - Get users by ID
+
+## 📄 License
+
+This project is for educational purposes.
 
 # Screenshot of web application
 

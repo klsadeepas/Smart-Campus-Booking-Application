@@ -41,8 +41,6 @@ incident management, and user notifications.
 - **Tailwind CSS** - Modern utility-first styling framework
 - **Framer Motion** - Animations
 - **React Icons** - Icon library
-- **React Toastify** - Notifications
-- **Chart.js** - Analytics charts
 
 ## 🔑 Demo Credentials
 

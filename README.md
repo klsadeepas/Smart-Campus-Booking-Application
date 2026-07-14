@@ -25,6 +25,7 @@ incident management, and user notifications.
 - **Notification Management**: Booking confirmations and rejections
 - **Room Maintenance Management**: Track and manage room status
 
+
 ## 🛠️ Tech Stack
 
 ### Backend
@@ -42,6 +43,7 @@ incident management, and user notifications.
 - **Framer Motion** - Animations
 - **React Icons** - Icon library
 
+
 ## 🔑 Demo Credentials
 
 ### Admin Account
@@ -51,6 +53,7 @@ incident management, and user notifications.
 ### User Account
 - Email: student1@example.com
 - Password: student123
+
 
 ## 📝 API Endpoints
 
@@ -70,11 +73,12 @@ incident management, and user notifications.
 - `GET /api/users` - Get all users
 - `GET /api/users/:id` - Get users by ID
 
+
 ## 📄 License
 
 This project is for educational purposes.
 
-# Screenshot of web application
+# Screenshot of Web Application
 
 ## Image 1
 
